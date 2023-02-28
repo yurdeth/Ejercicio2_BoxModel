@@ -1,0 +1,50 @@
+.principal{
+    background-color: #804674;
+}
+
+span{
+    color: white;
+    font-size: 2em;
+    font-family: "Arial Black", serif;
+}
+
+body{
+    background-color:  #804674;
+}
+
+.columna{
+    background-color: #A86464;
+    float: left;
+    text-align: center;
+    height: 7em;
+}
+
+.footer{
+    clear: both;
+}
+
+div{
+    margin: 10px;
+}
+
+div:nth-child(2), div:nth-child(3){
+    width: calc(50% - 20px);
+}
+
+div:nth-child(4), div:nth-child(5), div:nth-child(6){
+    width: calc(33.33% - 20px);
+}
+
+div:nth-child(7){
+    width: calc(33.33% - 20px);
+}
+
+div:nth-child(8){
+    width: calc(66.66% - 20px);
+}
+
+div:nth-child(9), div:nth-child(10), div:nth-child(11), div:nth-child(12){
+    width: calc(25% - 20px);
+}
+
+
